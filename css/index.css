@@ -1,5 +1,5 @@
 .my-mixin {
-  color: #23293B;
+  color: #23293b;
 }
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -122,7 +122,7 @@ blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-  content: '';
+  content: "";
   content: none;
 }
 table {
@@ -138,7 +138,7 @@ html {
 html,
 body {
   font-family: 'Ubuntu', sans-serif;
-  color: #5E6164;
+  color: #5e6164;
 }
 h1,
 h2,
@@ -146,7 +146,7 @@ h3,
 h4,
 h5 {
   font-family: 'Russo One', sans-serif;
-  color: #23293B;
+  color: #23293b;
 }
 h2 {
   font-size: 3.2rem;
@@ -172,7 +172,7 @@ header ul a {
   font-size: 1.5rem;
   text-decoration: none;
   padding: 1rem;
-  color: #23293B;
+  color: #23293b;
 }
 header h1 {
   font-size: 4rem;
@@ -180,7 +180,7 @@ header h1 {
   padding: 1rem;
 }
 footer {
-  color: #22283B;
+  color: #22283b;
   background: #f4f4f4;
   padding: 20px 0;
   border: 1px double #e0e0e0;
@@ -238,7 +238,7 @@ footer {
   border-radius: 0.5rem;
   width: 30%;
   text-align: center;
-  background-color: #5E6164;
+  background-color: #5e6164;
 }
 .home .walk .walk-text .btn:hover {
   background-color: #2d2e2f;
@@ -302,6 +302,32 @@ footer {
     border-radius: 0.5rem;
     width: 100%;
     text-align: center;
-    background-color: #5E6164;
+    background-color: #5e6164;
   }
+}
+.topform {
+  width: 30%;
+}
+.topform input {
+  height: 3rem;
+}
+.topform label {
+  font-size: 2rem;
+  padding-bottom: 1rem;
+}
+.topform select {
+  height: 3rem;
+}
+.topform .btn-primary {
+  color: #dee2e6;
+  padding: 1rem;
+  font-size: 2rem;
+  border-radius: 0.5rem;
+  width: 30%;
+  text-align: center;
+  background-color: #5e6164;
+}
+.topform .btn-primary:hover {
+  background-color: #2d2e2f;
+  color: #131619;
 }

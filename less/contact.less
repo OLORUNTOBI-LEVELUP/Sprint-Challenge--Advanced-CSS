@@ -1,0 +1,24 @@
+.topform {
+  width: 30%;
+
+  input {
+    height: 3rem;
+  }
+  label {
+    font-size: 2rem;
+    padding-bottom: 1rem;
+  }
+  select {
+    height: 3rem;
+  }
+  .btn-primary {
+    .mixin(
+      @color: @border-real; @width: 30%; @text-align: center; @font-size: 2rem;
+        @backgroundcolor: @shuttle-gray
+    );
+    &:hover {
+      background-color: darken(@shuttle-gray, 20%);
+      color: darken(@border-real, 80%);
+    }
+  }
+}
