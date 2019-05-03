@@ -163,6 +163,9 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+header {
+  background-color: #f6f6f6;
+}
 header ul {
   display: flex;
   justify-content: center;
