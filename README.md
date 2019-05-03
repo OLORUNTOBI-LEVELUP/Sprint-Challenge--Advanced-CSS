@@ -33,14 +33,25 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. What is the difference between an adaptive website and a fully responsive website?
+##answer
+Adaptive websites  accommodate different devices at specific breakpoints in design. For example, an adaptive website may have hard coded pixels used for layout using media queries for different devices. while Responsive websites combine features of fixed, adaptive, and fluid websites together into one seamless experience. Media queries are used to constrain responsive units so that as the viewport expands or shrinks, you get an experience that looks and functions beautifully across thousands of devices and screen sizes.
+Adaptive websites use specific breakpoints and would not render as well on all devices unlike fully responsive websites
 
 2. Describe what it means to be mobile first vs desktop first.
+ ##answer
+ To be mobile first is to design and tailor our css designs to mobile first and then scale it up to desktop. while desktop first is to tailor our designs towards large screen first, and then use media queries and breakpoints to scale it down to mobile and make it responsive
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
+##answer
+It makes it easy to convert pixels to rem e.g 20px = 2rem, 2px = 0.2rem, 15px = 1.5rem etc. basically to get the rem value, the pixels is divided by 10
 
 4. How would you describe preprocessing to someone new to CSS?
+##answer
+Preprocessing enables us to use features that makes CSS more readable, structured and easy to maintain and write. Preprocessing serves to make a developer's life easier
 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+##answer
+My favourite concept in Preprocessing is variables and nesting. The concept that gives the most trouble is parametric mixins.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
