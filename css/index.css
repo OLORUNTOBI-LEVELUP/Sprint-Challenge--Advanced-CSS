@@ -163,12 +163,10 @@ p {
   width: 100%;
   margin: 0 auto;
 }
-header {
-  background-color: #f6f6f6;
-}
 header ul {
   display: flex;
   justify-content: center;
+  background-color: #f6f6f6;
 }
 header ul li,
 header ul a {
@@ -181,6 +179,7 @@ header h1 {
   font-size: 4rem;
   text-align: center;
   padding: 1rem;
+  background-color: #f6f6f6;
 }
 footer {
   color: #22283b;
