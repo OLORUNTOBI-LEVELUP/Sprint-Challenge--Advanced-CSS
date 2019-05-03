@@ -59,6 +59,11 @@
       }
 
       .btn {
+        .mixin(@color:@border-real; @width: 30%; @text-align: center; @font-size: 2rem; @backgroundcolor:@shuttle-gray);
+        &:hover {
+            background-color: palegreen; 
+            color: black;  
+         }
       }
     }
 
@@ -75,6 +80,8 @@
   }
 }// home
 
+
+//mobile styles
 @media @phone {
   .main {
     width: 100vw;
@@ -114,11 +121,16 @@
       display: flex;
       flex-direction: column-reverse;
       justify-content: space-around;
+      padding: 0 1rem;
       .walk-img {
         width: 100%;
+        margin-left: 0;
       }
       .walk-text {
         width: 100%;
+        .btn {
+          .mixin(@width: 100%)
+        }
       }
     }
   }
